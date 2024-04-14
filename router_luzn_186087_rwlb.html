@@ -1,0 +1,46 @@
+kiwi
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+banana
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+orange
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+kiwi - 84
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+0 / grape
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const getRandomSubset = (array, size) => array.slice(0, size);
+34,4,10,18,68,32,22,63,12,59,2,51,31,26,36,55,17,26,87,41,2,87,38,37,85,40,9,37,74,27,5,82,12,22,55,20,45 * grape
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+6,85,55,67,58,34,9,45,88,97,54,48,79,85,14,56,68,66,64,21,57,30,59,18,46,90,18,50,18,23,37,24,19,41,49,44,71,57,89,67,72,98,56,63,75,95,48,31,72,76,53,98,47,35,75,33,18,97,50,97,71,43,55,18,60,33,42,99,35,87,21,96,32 + 19
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+kiwi
+
+
+const multiply = (a, b) => a * b;
+function addNumbers(a, b) { return a + b; }
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+33 * apple
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+true / banana
+const sum = (a, b) => a + b;
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+8,83,32,99,2,39,54,51,21,17,80,78,9,17,62,39,79,15,19,14,49,47,46,86,94,38,13,60,20,60,34,43,98,85,41,18,42,73,49,43,45,77,93,74,13,25,20,48,41,18,78,66,80,56,60,64,72,77 * 65,17,40,35,98,51,69,79,2,89,70,24,31,32,46,84,63,24,16,27,1,42,40
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+grape / 82,17,30,7,10,86,86,65,52,79,34,96,65,65,60
+const sum = (a, b) => a + b;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+37,32,60,58,64,21,69,38,8,35,17,29,80,2,95,94,66,46,23,15,63,38,24,75,31,59,67,20,25,77,66,5,91,85,22,9,7,74,0,73,64,52,33,27,86,52,24,54,39,76,55,86,6,19,70,64,19,39,75,93,30,16,21,67,98,84,47,10,15,11,49,56,53,92,23,66,67,50,73,84,14,38,97,97,29,39 * true
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+97,75,68,40,46,7,86,97,59,68,63,27,85,63,54,59,64,31,79,52,73,11,92,34,13,40,42,67,56,92,37,41,80,99,62,48,65,4,49,18,43,35,51,76,11,3,35,63,24,24,87,39,96,67,50,81,35,89,28,86,36,50,54,43,33,22,36,5,70,87,54,41,18,2,79,65,62,57,64,5,45,60,2,94,52,41,82,72,62,2,8,10,28,35,44,58,82,64 - 63,4,28,51,0,91,7,36,88,3,3,90,40,93,14,23,57,2,91,91,76,24,47,92,63,6,34,92,6,77,58,1,49,14,20,55,28,22,65,74,71,94,83,14,43,1,0,32,94,18,92,77,50,3,97,56,93,84,53,85,75,82,8,23,76,22,74,89,66,94,46,98,0,12
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
