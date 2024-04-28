@@ -1,0 +1,62 @@
+false - orange
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+banana
+
+const getRandomElement = array => array[getRandomIndex(array)];
+
+orange
+
+function addNumbers(a, b) { return a + b; }
+
+console.log(getRandomString());
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+orange * 11
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+grape
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+false / 61
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const randomNumber = getRandomNumber();
+true * false
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const randomNumber = getRandomNumber();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+grape * orange
+const reverseString = str => str.split("").reverse().join("");
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+87,7,14,31,48,91,74,75,82,84,14,48,96,39,25,69,35,73,68,72,98,96,80,3,84,99,58,95,51,33,53,49,37,91,32,36,63,7,41,70,54,16,22,99,77,48,28,10,32,91,80,26,62,54,90,17,56,60,59,14,49,80,60,28,51,45,6,23,6,47,33,26,15,85,27,36,74,82,23,46,42,61,77,54,57,36,87,86,29,12,15,33,60,40,1,36,76 + false
+let array = getRandomArray(); array.forEach(item => console.log(item));
+orange
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const reverseString = str => str.split("").reverse().join("");
+apple - 53
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+96 * 36
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+orange
+
+const removeDuplicates = array => Array.from(new Set(array));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+91,89,64,8,59,8,99,0,9,42,58,84,52 - 15,63,71,36,0,97,4,65,31,24,0,61,89,41,55,88,22,54,72,41,94,57,69,87,82,24
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
