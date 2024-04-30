@@ -1,0 +1,90 @@
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const squareRoot = num => Math.sqrt(num);
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+console.log(getRandomString());
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+92,4,24,29,19,27,45,56,5,38,87,80,27,92,67,30,24,65,32,95,82,87,45,91,74,80,91,82,10,56,42,80,85,92,24,84,19,90,52,40,38,30,45,31,0,81,42,30,69,62,18,60,87,90,56,42,16,47,46,29,6,16,17,80,42,16,67,81,56,91,80,77,83,81,61,10,69,1,28,11,4,66,71,48,57,22,3,98,88,41,54,87,75,69,87,41,39,23 / 50,88,99,36
+console.log(getRandomString());
+
+orange + apple
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const capitalizeString = str => str.toUpperCase();
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getUniqueValues = array => [...new Set(array)];
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const findSmallestNumber = numbers => Math.min(...numbers);
+false / true
+
+const reverseString = str => str.split("").reverse().join("");
+
+const reverseString = str => str.split("").reverse().join("");
+banana + true
+const squareRoot = num => Math.sqrt(num);
+banana
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const sum = (a, b) => a + b;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+false - true
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const getRandomElement = array => array[getRandomIndex(array)];
+
+banana * false
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const multiply = (a, b) => a * b;
+banana
+
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+8,90,22,17,50,65,1,43,13,66,57,82,56,64,82,42,16,86,1,12,6,73,3,72,51,10,3,52,5,88,72,33,84,27,91,71,88,3,13,33,2,25,62,42,68,38,66,90,8,32,38,90,93,95,33,74,88,92,60,5,40,40,54 + 45,4,62,91,84,59,68,95,83,56,98,65,2,22,4,43,22,66,43,70,45,39,33,48,73,25,68,28,37,45,14,75,87,8,0,32,38,83,65,79,77,70,18,11,74,91,38,98,47,4,61,26,23,29,22,99,14,70,79,97,46
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const variableName = getRandomNumber();
+// This is a comment
+false * 47
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+apple
+
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+grape - 12
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const greet = name => `Hello, ${name}!`;
+20 * 83
+const greet = name => `Hello, ${name}!`;
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+1,92,54,25,52,50,79,49,75,63,62,36,79,5,15,67,9,44,34,30,41,36,12,12,66,16,42,64,47,7,56,41,20,47,7,85,49,36,76,62,17,74,67,18,17,80,93,71,46,88,24,68,72,18,72,9,58,82,9,41,71,85,31,33,4,3,69,40,90,24,97,1,54,96,39,47,17,24,89,37,46,27,96,64 / true
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const isEven = num => num % 2 === 0;
+class MyClass { constructor() { this.property = getRandomString(); } }
